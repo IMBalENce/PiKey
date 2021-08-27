@@ -1,7 +1,7 @@
 # PiKey
 A customisable physical shortcut key based on Raspberry Pi Pico. I designed this to make it easier to mute/unmute microphone for my kids during home-schooling on Zoom, so that I don't have to keep alert for teacher's cue to unmute.
 
-It's not the most cost-effecitive design, nor the smallest form factor that I can make. But it's all I have on hand during the 6th lock down in Melbourne. I need it for the class this weekend. I hope this can help the other parents with the same the headache.
+It's not the most cost-effecitive design, nor the smallest form factor that I can make. But it's all I have on hand during the 6th lock down in Melbourne. I need it for the class this weekend. I hope this can help the other parents with the same headache.
 
 ## What you need:
 (I purchased most of my parts from core-electronics but can be sourced from elsewhere)
@@ -24,7 +24,8 @@ It's not the most cost-effecitive design, nor the smallest form factor that I ca
 - Down the Circuitpython libraries from the link below
   https://circuitpython.org/libraries
 - Copy the adafruit_hid folder from the library bundle to the lib folder on the CIRCUITPY drive.
-- Copy code.py from this repo to the root directory on the CIRCUITPY drive
+- Copy code.py from this repo to the root directory on the CIRCUITPY drive.
+- The default code is suitable for Zoom on Win and Linux, modify line39 in code.py accordingly if you are using Mac. 
 
 ## Reference
 https://learn.adafruit.com/diy-pico-mechanical-keyboard-with-fritzing-circuitpython/overview
